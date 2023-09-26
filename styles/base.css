@@ -1,57 +1,58 @@
-nav {
-    background-color: #36454f;
-    padding: 1rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
+/* Hamburger Menu Styles */
+.menu-toggle {
+    display: none; /* Hide the menu toggle by default on larger screens */
+    cursor: pointer;
 }
-nav a{
-    text-decoration: none;
-}
-.list{
-    display: flex;
-    list-style: none;
-    gap: 25px;
-}
-#toggler, label{
-    display: none;
 
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 6px 0;
 }
-h4 nav{
-    background-color: white;
+
+/* Navigation Menu Styles */
+.nav-menu {
+    display:none; /* Hide the navigation menu by default */
+    background-color: #333;
+    position: absolute;
+    top: 60px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    padding: 10px;
+    border-radius: 5px;
 }
-h4 {
-    display:flex;
+
+.nav-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-menu li {
+    margin: 10px 0;
+}
+
+.nav-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
 }
 h4 nav a{
     color: blue;
     padding: 20px;
     position: relative;
 }
-nav a{
-    color: white;
-    
-}
-
 h1 {
     font-size: large;
     font: optional;
     font-style: oblique;
-    color: wheat;
+    color: brown;
     margin-bottom: 2em;
     border-bottom: 1px solid steelblue;
     position: row;
   }
 h2 {
-    font-size: medium;
+    font-size: x-large;
     color:brown;
-}
-h3 {
-    font-size: medium;
-    color:brown;
-    background-color: steelblue;
-    background: size 50px;;
 }
 header {
     display: flex;
@@ -65,29 +66,17 @@ header {
     background-color: steelblue;
 }
 footer {
+    
+    position: bottom;
     background-color: steelblue;
-    
-}
-section{
-    display:block;
-}
- /*.hamburger{
-    position: relative;
-    display: block;
-    width: 35px;
-    height: 35px;
-    
-    appearance: none;
-    background: none;
-    outline: none;
-    border: none;
-}
-.hamburger .bar, .hamburger:after, .hamburger:before{
-    content: '';
-    display: block;
+    height: cm;
     width: 100%;
-    height: 50px;
-    background-color: #fff;
-    margin: 6px 0px;
-    transition: 0.4s;
-}*/
+    float: left;
+    text-align: center;
+    
+
+    
+}
+main {
+    background-image: url(../chamber/chamber1.webp);
+}

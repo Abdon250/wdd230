@@ -1,9 +1,31 @@
+@media screen and (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+    .nav-menu{
+        overflow: hidden;
+        display: none;
 
-.card {
+    }
+
+    .nav-menu.active {
+        display: block;
+    }
+    main {
+        background-image: url(../chamber/chamber1.webp);
+    }
+    .card{
+        background-image: url(../chamber/chamber1.webp);
+    }
+}
+
+
+
+/*.card {
     
     width: 100%;
 
-}
+}*/
 
 
 @media screen and (min-width: 780px) {
@@ -15,17 +37,31 @@
     footer{
         position: bottom;
     }
+    .nav-menu{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        overflow: visible;
+
+    }
+    main {
+        background-image: url(../chamber/chamber1.webp);
+    }
+    .card{
+        background-image: url(../chamber/chamber1.webp);
+    }
 }
+/*
 @media screen and (max-width:650px){
     
 }
     .menu{
         width: 100%;
-        max-height: 0;
+        max-height: 2;
         overflow: hidden;
     }
     label{
-        display: inline-flex;
+        display: flex;
         color:#ffff;
     }
     #toggler:checked~.menu{
