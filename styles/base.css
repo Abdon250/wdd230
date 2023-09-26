@@ -1,4 +1,21 @@
 /* Hamburger Menu Styles */
+.hero-image{
+    background-image: url(../images/temple.webp);
+    width: auto;
+    height: 500px;
+}
+.hero-image p{
+    color: #fff;
+    background-color:darkgrey;
+    text-align: center;
+    height: 50px;
+    width: 150px;
+    top:5erm;
+    left: 5erm;
+    padding: 8px;
+    font-size: larger;
+    
+}
 .menu-toggle {
     display: none; /* Hide the menu toggle by default on larger screens */
     cursor: pointer;
@@ -77,6 +94,14 @@ footer {
 
     
 }
-main {
+/*main {
     background-image: url(../chamber/chamber1.webp);
+}*/
+
+#mode{
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+
 }
+

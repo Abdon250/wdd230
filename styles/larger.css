@@ -11,12 +11,12 @@
     .nav-menu.active {
         display: block;
     }
-    main {
+    /*main {
         background-image: url(../chamber/chamber1.webp);
     }
     .card{
         background-image: url(../chamber/chamber1.webp);
-    }
+    }*/
 }
 
 
@@ -44,12 +44,12 @@
         overflow: visible;
 
     }
-    main {
+    /*main {
         background-image: url(../chamber/chamber1.webp);
     }
     .card{
         background-image: url(../chamber/chamber1.webp);
-    }
+    }*/
 }
 /*
 @media screen and (max-width:650px){

@@ -19,9 +19,7 @@
         
     }
     footer {
-        position: bottom;
         background-image: url(../images/back\ ground.jfif);
-        height: cm;
         width: 100%;
         float: left;
         text-align: center;
@@ -42,8 +40,4 @@
     .events{
         flex-grow: 1;
     }
-}
-footer {
-    position:bottom;
-    
 }

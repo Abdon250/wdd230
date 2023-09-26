@@ -93,12 +93,10 @@ nav a{
 
 h1 {
     font-size: large;
-    font: optional;
     font-style: oblique;
     color: brown;
     margin-bottom: 2em;
     border-bottom: 1px solid steelblue;
-    position: row;
   }
 h2 {
     font-size: x-large;
@@ -108,7 +106,7 @@ h3 {
     font-size: medium;
     color:brown;
     background-color: steelblue;
-    background: size 50px;;
+
 }
 header {
     display: flex;
@@ -123,9 +121,7 @@ header {
 }
 footer {
     
-    position: bottom;
     background-image: url(../images/back\ ground.jfif);
-    height: cm;
     width: 100%;
     float: left;
     text-align: center;
@@ -145,11 +141,7 @@ section{
     font-size: 50px;
     font-weight: 500;
 }
-.hero-text p{
-   
-    font-weight: 20px;
-    
-}
+
 .hero-btn{
     text-decoration: none;
     color: #fff;
