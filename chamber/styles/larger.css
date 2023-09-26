@@ -25,10 +25,22 @@
         width: 100%;
         float: left;
         text-align: center;
+        display: flex;
+        
     }
     
     main{
         background-image: url(../chamber1.webp);
+        display: grid;
+
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .events{
+        flex-grow: 1;
     }
 }
 footer {

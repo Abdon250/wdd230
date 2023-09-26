@@ -1,4 +1,58 @@
-main{
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.events{
+    color: black;
+    background: darkgrey;
+    width: auto;
+    height: 4cm;
+    padding: 2px;
+    border-bottom: 2px;
+    border-color: #36454f;
+}
+.weather{
+    margin: 10px;
+    border-top: #36454f;
+    color: black;
+    background: darkgrey;
+    width: auto;
+    padding: 2px;
+    border-bottom: 2px;
+    border-color: #36454f;
+}
+.thankful{
+    margin: 10px;
+    border-top: #36454f;
+    color: black;
+    background: darkgrey;
+    width: auto;
+    padding: 3px;
+    border-bottom: 2px;
+    border-color: #36454f;
+    text-align: center;
+}
+.Code{
+    margin: 10px;
+    border-top: #36454f;
+    color: black;
+    background: darkgrey;
+    width: auto;
+    padding: 3px;
+    border-bottom: 2px;
+    border-color: #36454f;
+}
+.Build{
+    margin: 10px;
+    border-top: #36454f;
+    color: black;
+    background: darkgrey;
+    width: auto;
+    padding: 2px;
+    border-bottom: 2px;
+    border-color: #36454f;
+}
+main {
     background-image: url(../chamber1.webp);
 }
 .hero-image{
@@ -41,7 +95,7 @@ h1 {
     font-size: large;
     font: optional;
     font-style: oblique;
-    color: wheat;
+    color: brown;
     margin-bottom: 2em;
     border-bottom: 1px solid steelblue;
     position: row;
