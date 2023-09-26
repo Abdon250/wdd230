@@ -1,0 +1,116 @@
+main{
+    background-image: url(../chamber1.webp);
+}
+.hero-image{
+    /*background-image: url("../chamber1.webp");*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    background-color: #36454f;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+  }
+h4 nav{
+    background-color: white;
+}
+h4 {
+    display:flex;
+    color: brown;
+    
+}
+h4 nav a{
+    color: blue;
+    padding: 20px;
+    position: relative;
+}
+nav a{
+    color: white;
+    
+}
+
+h1 {
+    font-size: large;
+    font: optional;
+    font-style: oblique;
+    color: wheat;
+    margin-bottom: 2em;
+    border-bottom: 1px solid steelblue;
+    position: row;
+  }
+h2 {
+    font-size: x-large;
+    color:brown;
+}
+h3 {
+    font-size: medium;
+    color:brown;
+    background-color: steelblue;
+    background: size 50px;;
+}
+header {
+    display: flex;
+}
+header img {
+    position: relative;
+    background-color: steelblue;
+}
+
+header {
+    background-color: steelblue;
+}
+footer {
+    
+    position: bottom;
+    background-image: url(../images/back\ ground.jfif);
+    height: cm;
+    width: 100%;
+    float: left;
+    text-align: center;
+    
+
+    
+}
+section{
+    display:block;
+}
+
+.hero-text {
+    color: black;
+    text-align: center;
+}
+.hero-text h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+.hero-text p{
+   
+    font-weight: 20px;
+    
+}
+.hero-btn{
+    text-decoration: none;
+    color: #fff;
+    background: #36454f;
+    border-radius: 20px;
+    padding: 20px 50px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.hero-btn:hover{
+    background: green;
+    color:#fff;
+}
+.card2 {
+    background: #36454f;
+    background-color: #36454f;
+    color: #fff;
+}
