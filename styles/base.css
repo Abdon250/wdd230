@@ -75,12 +75,12 @@ nav a{
 }
 h1 {
     font-size: large;
-    font: optional;
+
     font-style: oblique;
     color: brown;
     margin-bottom: 2em;
     border-bottom: 1px solid steelblue;
-    position: row;
+    
   }
 h2 {
     font-size: x-large;
@@ -93,11 +93,11 @@ h3{
     text-align: center;
     padding-top: 1cm;
     border-color: black;
-    border: 0.2cqmax;
+   
 }
 .card{
     
-    margin: 1erm;
+    
     background-color: darkgrey;
     
     
@@ -119,9 +119,9 @@ header {
 }
 footer {
     
-    position: bottom;
+    
     background-color: steelblue;
-    height: cm;
+    
     width: 100%;
     float: left;
     text-align: center;
