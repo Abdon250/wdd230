@@ -3,20 +3,79 @@
     
 }*/
 main{
-    width: 100%;
+    min-width: fit-content;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     max-width:fit-content;
 }
+figcaption{
+    
+    background-color: darkcyan;
+}
+figure{
+    min-width: fit-content;;
+}
+iframe{
+    width: 100%;
+}
+
+hr{
+    color:#fff;
+    background: darkgrey;
+    width: auto;
+    height: auto;
+    padding: 2px;
+    border-bottom: 2px;
+    border-color:steelblue;
+    border-style:groove;
+    
+    background-color: darkgrey;
+}
+.card1{
+    color:#fff;
+    background: darkgrey;
+    width: auto;
+    height: auto;
+    padding: 2px;
+    border-bottom: 2px;
+    border-color:steelblue;
+    border-style:groove;
+    
+    background-color: darkgrey;
+}
+.stat{
+    color: black;
+    background: darkgrey;
+    width: auto;
+    height: auto;
+    padding: 2px;
+    border-bottom: 2px;
+    border-color:steelblue;
+    border-style:groove;
+    
+}
+.atractions{
+    color: black;
+    background: darkgrey;
+    width: auto;
+    height: 6cm;
+    padding: 2px;
+    border-bottom: 2px;
+    border-color:steelblue;
+    border-style:groove;
+    
+    
+}
 .events{
+    border-style:groove;
     color: black;
     background: darkgrey;
     width: auto;
     height: 4cm;
     padding: 2px;
     border-bottom: 2px;
-    border-color: #36454f;
+    border-color:steelblue;
 }
 .weather{
     margin: 10px;

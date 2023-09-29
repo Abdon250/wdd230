@@ -1,5 +1,9 @@
 
 @media (min-width: 768px) {
+    
+    aside{
+        float: left;
+    }
     .card {
         width: 50%; 
         float: left;
