@@ -1,6 +1,13 @@
-.container{
+/*.container{
     display: flex;
     
+}*/
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width:fit-content;
 }
 .events{
     color: black;
@@ -56,7 +63,7 @@ main {
     background-image: url(../chamber1.webp);
 }
 .hero-image{
-    /*background-image: url("../chamber1.webp");*/
+    background-image: url("../chamber1.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

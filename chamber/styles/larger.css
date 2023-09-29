@@ -1,12 +1,4 @@
 
-.card {
-    
-    width: 100%;
-    position: relative;
-
-}
-
-
 @media (min-width: 768px) {
     .card {
         width: 50%; 
@@ -17,6 +9,9 @@
         position:relative;
     
         
+    }
+    .container{
+        display: flex;
     }
     footer {
         background-image: url(../images/back\ ground.jfif);
@@ -29,14 +24,13 @@
     
     main{
         background-image: url(../chamber1.webp);
-        display: grid;
+        display: flex;
+        text-align: center;
+        width: 100%;
+        min-width:fit-content;
 
     }
-    .container{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-    }
+    
     .events{
         flex-grow: 1;
     }
@@ -47,13 +41,13 @@
 	box-sizing: border-box;
 }
 
-body {
+/*body {
 	height: 100vh;
 	display: flex;
 	place-items: center;
 	justify-content: center;
 	font-family: Roboto, sans-serif;
-}
+}*/
 
 main {
 	margin: 0;
