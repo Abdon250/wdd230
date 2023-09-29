@@ -30,9 +30,18 @@
 
 @media screen and (min-width: 780px) {
     .card {
-        width: 50%; 
+        width: 49%; 
         float: left;
+        border-spacing: 0.5cm;
+        margin: 1erm;
+        border-color: black;
         
+    }
+    .card1{
+        width: 49%;
+        float: right;
+        margin: 1erm;
+        border-color: black;
     }
     footer{
         position: bottom;
@@ -44,6 +53,11 @@
         overflow: visible;
 
     }
+    iframe{
+        width: 100%;
+    }
+    
+    
     /*main {
         background-image: url(../chamber/chamber1.webp);
     }

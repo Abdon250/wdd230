@@ -1,23 +1,38 @@
-/* Hamburger Menu Styles */
+
 .hero-image{
-    background-image: url(../images/temple.webp);
-    width: auto;
-    height: 500px;
-}
-.hero-image p{
-    color: #fff;
-    background-color:darkgrey;
-    text-align: center;
-    height: 50px;
-    width: 150px;
-    top:5erm;
-    left: 5erm;
-    padding: 8px;
-    font-size: larger;
     
+    margin: 10px auto;
+    position: relative;
+    border: 1px solid rgba(0,0,0,.1);
+    height: 300px;
 }
+.hero-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.herolabel {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	background: radial-gradient(#fff, #4D5B97);
+	border: 1px solid rgba(0,0,0,.75);
+	padding: 1.5rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.75;
+
+}
+
+.herolabel p {
+	margin: 0;
+	padding: .25rem;
+	font-weight: 700;
+	font-size: 2rem;
+	font-family:"Great Vibes", serif;
+}
+
 .menu-toggle {
-    display: none; /* Hide the menu toggle by default on larger screens */
+    display: none; 
     cursor: pointer;
 }
 
@@ -28,13 +43,13 @@
     margin: 6px 0;
 }
 
-/* Navigation Menu Styles */
+
 .nav-menu {
-    display:none; /* Hide the navigation menu by default */
+    display:none; 
     background-color: #333;
     position: absolute;
-    top: 60px; /* Adjust as needed */
-    right: 20px; /* Adjust as needed */
+    top: 60px; 
+    right: 20px; 
     padding: 10px;
     border-radius: 5px;
 }
@@ -53,7 +68,7 @@
     text-decoration: none;
     font-size: 18px;
 }
-h4 nav a{
+nav a{
     color: blue;
     padding: 20px;
     position: relative;
@@ -71,11 +86,31 @@ h2 {
     font-size: x-large;
     color:brown;
 }
+h3{
+    background-color: steelblue;
+    color: #fff;
+    height: 2cm;
+    text-align: center;
+    padding-top: 1cm;
+    border-color: black;
+    border: 0.2cqmax;
+}
+.card{
+    
+    margin: 1erm;
+    background-color: darkgrey;
+    
+    
+}
+.card1{
+    margin: 1rem;
+    background-color: darkgrey;
+}
 header {
     display: flex;
 }
 header img {
-    position: relative;
+    padding-left: 20%;
     background-color: steelblue;
 }
 
@@ -94,9 +129,7 @@ footer {
 
     
 }
-/*main {
-    background-image: url(../chamber/chamber1.webp);
-}*/
+
 
 #mode{
     position: relative;
@@ -105,3 +138,8 @@ footer {
 
 }
 
+#visits {
+	color: navy;
+	font-weight: bolder;
+	font-size: larger;
+}
