@@ -43,7 +43,7 @@
 }
   
 .star-rating label:hover {
-    color:black;
+    color:orange;
     transition: 0.2s ease;
 }
 .star-rating label:active::before {
