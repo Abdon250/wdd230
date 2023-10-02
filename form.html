@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>TUYIZERE Niyogisubizo Abdon - WDD 230 - Web Frontend Development</title>
+        <meta name="WDD 230 - Web Frontend Development | TUYIZERE Niyogisubizo Abdon | course home page partal" content="WDD230" >
+        <meta  content="Abdon" name="Abdon">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/larger.css">
+        <link rel="stylesheet" href="styles/dark.css">
+        <link rel="stylesheet" href="styles/form.css">
+
+
+    </head>
+    <body>
+        <header>
+            <img src="images/profile.webp" alt="Hello, my name is TUYIZERE Niyogisubizo Abdon" width="200" loading="lazy">
+            <h1>TUYIZERE Niyogisubizo Abdon</h1>
+            
+            
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="chamber/index.html">Chamber</a></li>
+                    <li><a href="#">Sitr Plan</a></li>
+                    <li><a href="#">Form</a></li>
+                </ul>
+            </nav>
+           
+        </header>
+        
+        
+        <main>
+        
+            <div id="mode">
+                ☑️
+            </div>
+            <div id="formmessage"></div>
+            <form method="get">
+                <p class="smaller">*️⃣ Indicates a required field</p>
+        
+                <label for="username" class="req">Username</label>
+                <input type="text" id="username" name="username" required placeholder="Please enter your username">
+                
+                <label for="password">Your Password</label>
+                <input type="text" id="password" name="password" pattern="[a-zA-Z -]{8,}" placeholder="At least eight characters long. No numbers.">
+                
+                <label for="password2">Re-enter Your Password</label>
+                <input type="text" id="password2" name="password2">
+
+                <label for="email" class="req">Email Address</label>
+                <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" placeholder="Please use your school email address">
+        
+                <div id="rangevalue">1</div>
+                    <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
+                    <datalist id="rangevalues">
+	                    <option value="0">0</option>
+	                    <option value="1">1</option>
+	                    <option value="2">2</option>
+	                    <option value="3">3</option>
+	                    <option value="4">4</option>
+	                    <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </datalist>
+                
+	
+                </div>
+
+                <div class="star-rating">
+                    <input type="radio" name="stars" id="star-a" value="5"/>
+                    <label for="star-a"></label>
+              
+                    <input type="radio" name="stars" id="star-b" value="4"/>
+                    <label for="star-b"></label>
+                
+                    <input type="radio" name="stars" id="star-c" value="3"/>
+                    <label for="star-c"></label>
+                
+                    <input type="radio" name="stars" id="star-d" value="2"/>
+                    <label for="star-d"></label>
+                
+                    <input type="radio" name="stars" id="star-e" value="1"/>
+                    <label for="star-e"></label>
+              </div>
+              <button id="btnSubmit" type="submit">Submit</button>
+                   
+            </form>
+            
+            
+        </main>
+        <footer>
+            <p class="copyright">©️<span id="currentyear"></span> | TUYIZERE Niyogisubizo Abdon | Kigali, RWanda</p>
+            <p id="lastModified">lastModified: 12/11/2000</p>
+
+        </footer>
+        <script src="scripts/getDates.js"></script>
+        <script src="scripts/menu.js"></script>
+        <script src="scripts/dark.js"></script>
+        <script src="scripts/form.js"></script>
+    </body>
+</html>
