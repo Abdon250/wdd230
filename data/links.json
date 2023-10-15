@@ -1,0 +1,86 @@
+{
+    "weeks": [
+      {
+        "week": "Week 1",
+        "links": [
+          {
+            "url": "week01/holygrail.html",
+            "title": "Holy Grail Layout"
+          },
+          {
+            "url": "week01/media-query.html",
+            "title": "Media Queries"
+          },
+          {
+            "url": "week01/applied-javascript.html",
+            "title": "Applied JavaScript"
+          }
+        ]
+      },
+      {
+        "week": "Week 2",
+        "links": [
+          {
+            "url": "week02/design-principles.html",
+            "title": "Design Principles"
+          },
+          {
+            "url": "week02/responsive-menu.html",
+            "title": "Responsive Menu"
+          },
+          {
+            "url": "week02/dom-manipulation.html",
+            "title": "DOM Manipulation"
+          }
+        ]
+      },
+      {
+        "week": "Week 3",
+        "links": [
+          {
+            "url": "week03/webp.html",
+            "title": "WebP Images"
+          },
+          {
+            "url": "week03/lazyload.html",
+            "title": "Lazy Loading"
+          },
+          {
+            "url": "week03/responsive-images.html",
+            "title": "Responsive Images with srcset"
+          },
+          {
+            "url": "week03/localStorage.html",
+            "title": "LocalStorage"
+          }
+        ]
+      },
+      {
+        "week": "Week 4",
+        "links": [
+          {
+            "url": "week04/tablebuild.html",
+            "title": "Table"
+          },
+          {
+            "url": "week04/form.html",
+            "title": "Form"
+          }
+        ]
+      },
+      {
+        "week": "Week 5",
+        "links": [
+          {
+            "url": "week05/your-activity.html",
+            "title": "Your Activity Title"
+          },
+          {
+            "url": "week05/activity.html",
+            "title": "#"
+          }
+        ]
+      }
+    ]
+  }
+  
