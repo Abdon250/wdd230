@@ -5,7 +5,8 @@ const linksURL = `${baseURL}data/links.json`;
 const weatherAPIKey = "497a9fbde8ed96e7f5035fc201caab90"; 
 
 function getWeather() {
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=Kigali&appid=$497a9fbde8ed96e7f5035fc201caab90&units=metric`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=Kigali&appid=497a9fbde8ed96e7f5035fc201caab90&units=metric`)
+
         .then(response => response.json())
         .then(weatherData => displayWeather(weatherData))
         .catch(error => console.error("Error fetching weather data:", error));
