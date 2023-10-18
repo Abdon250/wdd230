@@ -45,3 +45,12 @@ numVisits++;
 
 
 localStorage.setItem("numVisits-ls", numVisits);
+
+
+
+// Populate timestamp when the form is loaded
+document.addEventListener("DOMContentLoaded", function() {
+	var timestampField = document.getElementById("timestamp");
+	var currentDate = new Date();
+	timestampField.value = currentDate.toISOString();
+});
