@@ -77,3 +77,48 @@ p {
 .smaller {
 	font-size: smaller;
 }
+
+
+
+
+
+
+
+
+
+
+/* Styles for grid and list views */
+.directory-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.directory-card {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    flex: 0 0 calc(33.333% - 20px); /* Three items per row for larger screens */
+}
+
+.directory-list-item {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%; /* Full width for list items */
+    margin-bottom: 20px;
+}
+
+.list-view .directory-card {
+    border: none; /* Remove border for list view */
+}
+
+/* Media query for smaller screens (mobile view) */
+@media screen and (max-width: 767px) {
+    .directory-card,
+    .directory-list-item {
+        flex: 0 0 100%; /* Single column for smaller screens */
+    }
+}
