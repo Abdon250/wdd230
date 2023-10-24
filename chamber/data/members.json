@@ -5,7 +5,7 @@
             "address": "123 Main St, Cityville, State, 12345",
             "phone": "+1 (555) 123-4567",
             "website": "http://www.techinnovators.com",
-            "image": "tech.jpg",
+            "image": "images/tech.jpg",
             "membershipLevel": "Gold",
             "otherInfo": "Leading the way in technological advancements."
         },
@@ -14,7 +14,7 @@
             "address": "456 Elm St, Greentown, State, 56789",
             "phone": "+1 (555) 987-6543",
             "website": "http://www.greenenergysolutions.com",
-            "image": "green.jpg",
+            "image": "images/green.jpg",
             "membershipLevel": "Silver",
             "otherInfo": "Providing eco-friendly energy solutions for a sustainable future."
         },
@@ -23,7 +23,7 @@
             "address": "789 Oak St, Speedyville, State, 10111",
             "phone": "+1 (555) 111-2222",
             "website": "http://www.swiftlogistics.com",
-            "image": "swift.jpg",
+            "image": "images/swift.jpg",
             "membershipLevel": "Bronze",
             "otherInfo": "Efficient and reliable logistics services tailored to your needs."
         },
@@ -32,7 +32,7 @@
             "address": "101 Pine St, Artville, State, 54321",
             "phone": "+1 (555) 222-3333",
             "website": "http://www.creativedesignsagency.com",
-            "image": "creative.jpg",
+            "image": "images/creative.jpg",
             "membershipLevel": "Gold",
             "otherInfo": "Bringing imagination to life through innovative designs and concepts."
         },
@@ -41,7 +41,7 @@
             "address": "202 Maple St, Worldville, State, 67890",
             "phone": "+1 (555) 444-5555",
             "website": "http://www.globaltradepartners.com",
-            "image": "llc.jpg",
+            "image": "images/llc.jpg",
             "membershipLevel": "Silver",
             "otherInfo": "Connecting businesses worldwide for seamless international trade."
         },
@@ -50,7 +50,7 @@
             "address": "303 Cedar St, Healthytown, State, 11223",
             "phone": "+1 (555) 666-7777",
             "website": "http://www.healthcareinnovations.com",
-            "image": "health.jpg",
+            "image": "images/health.jpg",
             "membershipLevel": "Bronze",
             "otherInfo": "Revolutionizing healthcare with cutting-edge technologies and solutions."
         },
@@ -59,7 +59,7 @@
             "address": "404 Walnut St, Flavorville, State, 99887",
             "phone": "+1 (555) 888-9999",
             "website": "http://www.foodieparadise.com",
-            "image": "food.jpg",
+            "image": "images/food.jpg",
             "membershipLevel": "Gold",
             "otherInfo": "Delighting taste buds with a diverse culinary experience."
         }

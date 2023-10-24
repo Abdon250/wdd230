@@ -51,29 +51,32 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
     // Fetch and display member data from JSON
-fetch("data/members.json")
-.then(response => response.json())
-.then(data => {
-    const directoryContainer = document.querySelector(".directory-container");
+    fetch("data/members.json")
+    .then(response => response.json())
+    .then(data => {
+        const directoryContainer = document.querySelector(".directory-container");
 
-    data.members.forEach(member => {
-        const memberElement = document.createElement("div");
-        memberElement.className = "directory-card directory-list-item"; // Initially, both classes are added
-        memberElement.innerHTML = `
-            <h2>${member.name}</h2>
-            <p>${member.address}</p>
-            <p>Tel: ${member.phone}</p>
-            <p>Website: <a href="${member.website}" target="_blank">${member.website}</a></p>
-            <img src="images/${member.icon}" alt="${member.name}">
-            <p>Membership Level: ${member.membershipLevel}</p>
-            <!-- Add other appropriate information here -->
-        `;
-        directoryContainer.appendChild(memberElement);
-    });
+        data.members.forEach(member => {
+            const memberElement = document.createElement("div");
+            memberElement.className = "directory-card directory-list-item"; // Initially, both classes are added
+            memberElement.innerHTML = `
+                <h2>${member.name}</h2>
+                <p>${member.address}</p>
+                <p>Tel: ${member.phone}</p>
+                <p>Website: <a href="${member.website}" target="_blank">${member.website}</a></p>
+                <img src="${member.image}" alt="${member.name}"> <!-- Use member.image to get the image path -->
+                <p>Membership Level: ${member.membershipLevel}</p>
+                <p>${member.otherInfo}</p>
+            `;
+            directoryContainer.appendChild(memberElement);
+        });
 
     toggleView(); // Apply initial view based on button click
 })
 .catch(error => console.error("Error fetching member data:", error));
+
+
+
 
 
 

@@ -1,99 +1,84 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>TUYIZERE Niyogisubizo Abdon - WDD 230 - Web Frontend Development | Chamber of Commerce</title>
-        <link rel="icon" href="images/favicon.ico">
-        <meta name="WDD 230 - Web Frontend Development | TUYIZERE Niyogisubizo Abdon | course home page partal" content="WDD230">
-        <meta name="Abdon" content="Abdon">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KIGALI Chamber of Commerce</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/bases.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo1.jpg" alt="Hello, my name is TUYIZERE Niyogisubizo Abdon" width="200">
+        <h1>KIGALI Chamber of Commerce</h1>
+        <h1>Kigali city</h1>
+        <h1>Rwanda</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="discover.html">Discover</a>
+        <a href="directory.html">Directory</a>
+        <a href="join.html">Join</a>
+    </nav>
 
-        <meta property="og:type"               content="article" />
-        <meta property="og:title"              content="When Great Minds Don’t Think Alike" />
-        <meta property="og:description"        content="How much does culture influence creative thinking?" />
-        <meta property="og:image"              content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" /> -->
-        <link rel="stylesheet" href="styles/bases.css">
-        <link rel="stylesheet" href="styles/larger.css">
-    </head>
-    <body>
-        <header>
-            <img src="images/logo1.jpg" alt="Hello, my name is TUYIZERE Niyogisubizo Abdon" width="200">
-            <h1>KIGALI Chamber of  Commerce</h1>
-            <h1>Kigali city</h1>
-            <h1>Rwanda</h1>
-            
-        </header>
-        <nav>
-            <a href="#">Home</a>
-            <a href="discover.html">Discover</a>
-            <a href="directory.html">Directory</a>
-            <a href="#">Join</a>
-        </nav>
-        
-        <main>
-            <div class="hero-mage">
-                <div class="hero-text">
-                    <h2>KIGALI CHAMBER OF COMERCE</h2>
-                    
-                    <a href="#" class="hero-btn">Join Chamber</a>
-                    <div class="container ">
-                        <div class="events">
-                            <h2>Events</h2>
-                            <p>Kigali The best</p>
-                            <p>Join us on 1 Oct 2023, 8am At BK ARENA</p>
-                        </div>
-                        <div class="weather">
-                            <h2>Weather</h2>
-                        
-                            <p>29°C°<p>
-                        
-                            <p>Presipitation:33%</p>
-                            <p>Humidity:61%</p>
-                            <p>Wind: 11 km/h</p>
-                            <img src="images/weather.png" alt="weather">
-                        </div>
-                        <h2>Member spotlights</h2>
-                        <div class="thankful">
-                            <h2>Thankful Transport</h2>
-                            <a href="#">Thankful@Contact</a>
-                            <a href="#">+25078888889</a>
-                            <a href="#">www.thankful.com</a>
-                        </div>
-                        <div class="Code">
-                            <h2>Code primera</h2>
-                        
-                            <a href="#">codeprimera@Contact</a>
-                            <a href="#">+25078888889</a>
-                            <a href="#">www.codeprimera.com</a>
-                        </div>
-                        <div class="Build">
-                            <h2>Build A treefort</h2>
-                    
-                            <a href="#">buildatreefort@Contact</a>
-                            <a href="#">+25078888889</a>
-                            <a href="#">www.buildatreefort.com</a>
-                        </div>
+    <main>
+        <div class="hero-image">
+            <div class="hero-text">
+                <h2>KIGALI CHAMBER OF COMMERCE</h2>
+                <a href="join.html" class="hero-btn">Join Chamber</a>
+                <div class="menu">
+                    <button id="grid">⏹️ Grid</button>
+                    <button id="list">📄 List</button>
+                </div>
+                <div class="container">
+                    <div class="events">
+                        <h2>Events</h2>
+                        <p>Kigali The best</p>
+                        <p>Join us At BK ARENA in</p>
+                        <div id="countdown"></div>
                     </div>
+                    <section class="weather-card">
+                        <h3>Current Weather</h3>
+                        <div id="weather-info"></div>
+                    </section>
+                    <div class="member-spotlights">
+                        <h2>Member spotlights</h2>
+                        <div class="directory-container"></div>
+                    </div>
+                    
+                    <div class="directory-card">
+                        <a href="" class="member-link" target="_blank">
+                            <img src="" alt="Member Image" class="member-image">
+                        </a>
+                        <!-- Rest of your member card content -->
+                    </div>
+
                 </div>
             </div>
-            
-            
-           
-            <section class="card2">
-                <h3>Contact Information</h3>
-                <p>Kigali, Rwanda</p>
-                <p>Tel:+250786503233</p>
-                <p>Whatsapp: +250786503233</p>
-                <p>email: abdontuyizere@gmail.com</p>
+        </div>
 
-            </section>
-        </main>
-        <footer>
-            <p class="copyright">©️<span id="currentyear"></span> | TUYIZERE Niyogisubizo Abdon | Kigali, RWanda</p>
-            <p id="lastModified">lastModified: 12/11/2000</p>
+        <!-- Banner Section -->
+        <div class="banner">
+            <p>Attend the chamber of commerce meet and greet on Wednesday at 7:00 p.m.!</p>
+            <button id="closeBannerBtn">Close</button>
+        </div>
 
+        <section class="card2">
+            <h3>Contact Information</h3>
+            <p>Kigali, Rwanda</p>
+            <p>Tel: +250786503233</p>
+            <p>Whatsapp: +250786503233</p>
+            <p>email: abdontuyizere@gmail.com</p>
+        </section>
+    </main>
 
-        </footer>
-        <script src="scripts/getDates.js"></script>
-    </body>
+    <footer>
+        <p class="copyright">©️<span id="currentyear"></span> | TUYIZERE Niyogisubizo Abdon | Kigali, Rwanda</p>
+        <p id="lastModified">lastModified: 12/11/2000</p>
+    </footer>
+
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/banner.js"></script>
+</body>
 </html>
